@@ -1,0 +1,27 @@
+<title>Переадресация...</title>
+
+<script type="text/javascript" src="url.js"></script>
+<script language=javascript>
+    function redirect() {
+        var http = `https`
+        var initialPage = location.pathname;0
+        location.replace(`${http}://${lvl3}${url}` + initialPage);
+    }
+</script>
+<html>
+    <h1>Переадресация...</h1>
+    <body onload="redirect()"></body>
+    </html>
+<style>
+    html{
+        background: #000;
+    }
+    h1{
+        color: #fff;
+        text-align:center;
+        position: relative;
+        top: 50%;
+        font-family: 'Calibri';
+        font-size: 70px;
+    }
+</style>
